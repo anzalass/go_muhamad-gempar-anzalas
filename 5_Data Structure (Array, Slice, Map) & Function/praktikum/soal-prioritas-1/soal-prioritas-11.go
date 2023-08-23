@@ -22,7 +22,13 @@ func main() {
 func ArrayMerge(arrayA, arrayB []string) []string {
 
 	// your code here
-	var merged = append(append(arrayA, arrayB...))
-	return merged
+	var merged []string
+
+	for _, arr := range arrayA {
+		merged = append(merged, arr)
+	}
+	for _, arr := range arrayB {
+		merged = append(merged, arr)
+	}
 
 }
