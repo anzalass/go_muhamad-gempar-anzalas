@@ -5,7 +5,7 @@ import (
 )
 
 func munculSekali(input string) []int {
-	charCount := make(map[rune]int)
+	charCount := make(map[int32]int)
 	var result []int
 
 	for _, char := range input {
