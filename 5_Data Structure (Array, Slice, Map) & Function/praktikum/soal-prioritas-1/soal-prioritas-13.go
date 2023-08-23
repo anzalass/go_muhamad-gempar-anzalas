@@ -14,7 +14,7 @@ func munculSekali(input string) []int {
 
 	for _, char := range input {
 		if charCount[char] == 1 {
-			result = append(result, int(char-'0')) // Mengonversi rune ke integer
+			result = append(result, int(char-'0')) 
 		}
 	}
 
