@@ -13,7 +13,7 @@
    numbers := []int{1, 2, 3, 4, 5, 6, 7}
    numbers = append(numbers, 111)
 
-3. Map di go ada tipe data map, berikut cara membuat dan mendekalarasikan map
+3. Map di go ada tipe data map, berikut cara membuat dan mendekalarasikan map, map pasti unik dan tidak bisa diurutkan
 
    var harga = map[string]string{
    "a": "anzalas",
