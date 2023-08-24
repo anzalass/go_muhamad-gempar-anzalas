@@ -31,4 +31,6 @@ func ArrayMerge(arrayA, arrayB []string) []string {
 		merged = append(merged, arr)
 	}
 
+	return merged
+
 }
