@@ -1,3 +1,5 @@
-INSERT INTO tabel (....) VALUES (....)
-SELECT \* FROM tabel WHERE
-UPDATE tabel SET (..)
+Mempelajari CRUD menggunakan database 
+INSERT
+UPDATE 
+DELETE
+SELECT
