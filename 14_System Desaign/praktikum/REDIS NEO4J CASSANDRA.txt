@@ -1,0 +1,5 @@
+REDIS ---> redis-cli keys *
+
+NEO4J ----> MATCH (u:User) RETURN u;
+
+CASSANDRA ---> SELECT * FROM users;

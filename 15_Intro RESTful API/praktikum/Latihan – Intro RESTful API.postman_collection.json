@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "ca6e4b23-a0a7-459d-9a8a-ce0a03295f0a",
+		"name": "Latihan – Intro RESTful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25780742",
+		"_collection_link": "https://interstellar-eclipse-208485.postman.co/workspace/Anzalas-~e67ceeeb-8ed4-4bae-bdcf-fbd06e821a9b/collection/25780742-ca6e4b23-a0a7-459d-9a8a-ce0a03295f0a?action=share&source=collection_link&creator=25780742"
+	},
+	"item": [
+		{
+			"name": "Skenario-1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-1",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"id\": 1122,\r\n    \"title\": \"Perjalanan Mencari Tembok Yajuz Majuz\",\r\n    \"isbn\": \"1-234-5678-91012939-13\",\r\n    \"writer\": \"Dr. Anzalas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book"
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"title\": \"Judul Buku Baru\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/1234"
+			},
+			"response": []
+		},
+		{
+			"name": "Skenario-2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/1234"
+			},
+			"response": []
+		}
+	]
+}
