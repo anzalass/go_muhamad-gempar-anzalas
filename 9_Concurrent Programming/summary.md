@@ -10,9 +10,9 @@ Adalah Program yang berjalan bersamaan dengan program lain, bisa berjalan tanpa 
 ## Concurrent
 Concurrent Programming merupakan sebuah konsep di dalam pemrograman yang memungkinkan suatu komputasi berjalan tanpa hatus menunggu komputasi lainnya diselesaikan terlebih dahulu. Java merupakan salah satu Bahasa yang bersifat multi-threaded sehingga mendukung untuk konsep concurrency
 
-### Beberapa Fitur Concurrent programming di golang
-GoRoutine
-Channel
-Select
-Race Conditions
-Mutexs
+### Beberapa Hal Concurrent programming di golang
+1.GoRoutine
+2. Channel
+3. Select
+4. Race Conditions
+5. Mutexs
