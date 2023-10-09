@@ -50,7 +50,7 @@ func Kelipatan3GoroutineBuffer() {
 	}
 }
 
-func FaktorialMutex(n int) {
+func alMutex(n int) {
 	x := 1
 	var mutex sync.Mutex
 	go func() {

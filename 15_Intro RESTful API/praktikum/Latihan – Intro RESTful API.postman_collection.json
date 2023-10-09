@@ -54,7 +54,9 @@
 				"method": "GET",
 				"header": []
 			},
-			"response": []
+			"response": [
+				 "{\r\n     \"id\": 1122,\r\n    \"title\": \"Perjalanan Mencari Tembok Yajuz Majuz\",\r\n    \"isbn\": \"1-234-5678-91012939-13\",\r\n    \"writer\": \"Dr. Anzalas\"\r\n}"
+			]
 		},
 		{
 			"name": "Skenario-2",
